@@ -2,4 +2,4 @@
     - all
   tasks:
     - name: Example from an Ansible Playbook
-      ansible.builtin.ping
+      ansible.builtin.ping:
