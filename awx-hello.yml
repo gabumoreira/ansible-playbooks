@@ -1,0 +1,12 @@
+- name: Hello AWX
+  hosts: all
+  tasks:
+  
+    - name: Hello Msg
+      debug:
+        msg: "{{ hello_msg }}"
+  
+    - name: Hello AWX
+      debug:
+        msg: "Hello AWX!"
+        
